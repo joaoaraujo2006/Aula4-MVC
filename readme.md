@@ -8,11 +8,11 @@ A página Aluno permite cadastrar, excluir e editar alunos existentes. Além dis
 
 A página professor permite cadastrar e excluir professores.
 
-**O que o Model faz?**
+#### **O que o Model faz?**
 
 O model realiza uma conexão com o banco de dados através do arquivo db.js e exporta um módulo com diferentes funções que realizam operações CRUD (CREATE, READ, UPDATE E DATE). Foi criado um MODEL para cada uma das tabelas Alunos, Cursos e Professores, para trabalhar suas operações de forma individualmente.
 
-**O que o Controller faz?** 
+#### **O que o Controller faz?** 
 
 O controller realiza as requisições, assim rodando as funções criadas no Model e depois devolve a visualização para o View.
 
@@ -21,7 +21,7 @@ Ex: Aluno_Controller:
 No exports.index, ele realiza um GET na tabela alunos e define as informações encontradas como const alunos e const cursos.
 Depois ele renderiza o index.js passando as const alunos e cursos encontradas através do comando GET.
 
-**ENDPOINTS**
+#### **ENDPOINTS**
 
 Os ENDPOINTS representam as rotas para as páginas /professores e /alunos, e também realiza os métodos HTTP definidos nas respectivas rotas. É possível ver que ao realizar qualquer requisição GET, DELETE ou UPDATE, a página atualiza, realizando assim os métodos HTTP definidos nas rotas.
 
