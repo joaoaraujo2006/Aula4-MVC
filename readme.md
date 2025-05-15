@@ -10,7 +10,7 @@ A página professor permite cadastrar e excluir professores.
 
 #### **O que o Model faz?**
 
-O model realiza uma conexão com o banco de dados através do arquivo db.js e exporta um módulo com diferentes funções que realizam operações CRUD (CREATE, READ, UPDATE E DATE). Foi criado um MODEL para cada uma das tabelas Alunos, Cursos e Professores, para trabalhar suas operações de forma individualmente.
+O model realiza uma conexão com o banco de dados através do arquivo db.js e exporta um módulo com diferentes funções que realizam operações CRUD (CREATE, READ, UPDATE E DATE). Foi criado um MODEL para cada uma das tabelas Alunos, Cursos e Professores, para trabalhar suas operações de forma individual. Além disso, cada model possui um código em .SQL para realizar cada uma das operações.
 
 #### **O que o Controller faz?** 
 
